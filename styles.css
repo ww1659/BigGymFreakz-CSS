@@ -1,0 +1,91 @@
+/*************** SELECTOR TAGS ***************/
+body {
+  background-color: #dbe2ef;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #3f72af;
+}
+
+div {
+  padding: 20px;
+  text-align: center;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #3f72af;
+  border-width: 10px;
+  width: 5%;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Amatic SC', cursive;
+  color: #112d4e;
+  font-size: 5em;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  color: #112d4e;
+}
+
+h3 {
+  margin: 0;
+  font-family: 'Amatic SC', cursive;
+  color: #112d4e;
+  font-size: 3em;
+}
+
+/*************** CLASS TAGS ***************/
+.top-container {
+  padding-top: 50px;
+  position: relative;
+}
+
+.leftCloud {
+  position: absolute;
+  left: 400px;
+  top: 120px;
+}
+
+.rightCloud {
+  position: absolute;
+  right: 400px;
+  bottom: 400px;
+}
+
+.displayPicture {
+  position: relative;
+  right: 15px;
+}
+
+.middle-container{
+  background-color: #f9f7f7;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 40px auto 40px auto;
+  text-align: left;
+  line-height: 1.2;
+}
+
+.tree-image {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bear-image {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container{
+  background-color: #3f72af;
+  color: #f9f7f7;
+}
